@@ -10,7 +10,10 @@ class Index extends Init{
 
     //首页
     function index(){
-        return '后台';
         return view('index');
+    }
+    //欢迎页面
+    function home(){
+        return view('home');
     }
 }

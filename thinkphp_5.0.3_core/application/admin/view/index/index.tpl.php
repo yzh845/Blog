@@ -2,8 +2,8 @@
 <div class="layui-layout layui-layout-admin">
     <div class="layui-header header">
         <div class="layui-main">
-            <a class="logo" href="http://www.phplaozhang.com" target="_blank">
-                <img src="./images/logo-top.png" alt="Lz_CMS">
+            <a class="logo" href="{:url('index/index/index')}" target="_blank">
+                <img src="/static/images/logo-top.png" alt="Lz_CMS">
             </a>
             <ul class="layui-nav top-nav-container">
                 <li class="layui-nav-item layui-this">
@@ -31,15 +31,15 @@
                     <a>个人信息</a>
                 </li>
                 <li class="layui-nav-item first-item layui-this">
-                    <a href="./home.html" target="main">
+                    <a href="{:url('index/home')}" target="main">
                         <i class="layui-icon">&#xe638;</i>
                         <cite>首页面板</cite>
                     </a>
                 </li>
                 <li class="layui-nav-item ">
-                    <a href="./form.html" target="main">
+                    <a href="{:url('admin/edit')}" target="main">
                         <i class="layui-icon">&#xe642;</i>
-                        <cite>表单</cite>
+                        <cite>管理员信息</cite>
                     </a>
                 </li>
             </ul>
