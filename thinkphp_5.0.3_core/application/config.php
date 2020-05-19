@@ -106,14 +106,6 @@ return [
     'url_controller_layer'   => 'controller',
     // 表单请求类型伪装变量
     'var_method'             => '_method',
-    // 表单ajax伪装变量
-    'var_ajax'               => '_ajax',
-    // 表单pjax伪装变量
-    'var_pjax'               => '_pjax',
-    // 是否开启请求缓存 true自动缓存 支持设置请求缓存规则
-    'request_cache'          => false,
-    // 请求缓存有效期
-    'request_cache_expire'   => null,
 
     // +----------------------------------------------------------------------
     // | 模板设置
@@ -125,7 +117,7 @@ return [
         // 模板路径
         'view_path'    => '',
         // 模板后缀
-        'view_suffix'  => 'html',
+        'view_suffix'  => 'php',
         // 模板文件名分隔符
         'view_depr'    => DS,
         // 模板引擎普通标签开始标记
@@ -157,6 +149,15 @@ return [
     'show_error_msg'         => false,
     // 异常处理handle类 留空使用 \think\exception\Handle
     'exception_handle'       => '',
+
+
+    'http_exception_template' => [
+        // 定义404错误的重定向页面地址
+        404 => APP_PATH.'404.html',
+        // 还可以定义其它的HTTP status
+        401 => APP_PATH.'401.html',
+    ],
+
 
     // +----------------------------------------------------------------------
     // | 日志设置
@@ -236,4 +237,19 @@ return [
         'var_page'  => 'page',
         'list_rows' => 15,
     ],
+
+    'captcha' => [
+        // 验证码字体大小(px)
+        'fontSize' => 24,
+        // 背景颜色
+        'bg'       => [255, 255, 255],
+        // 是否画混淆曲线
+        'useCurve' => false,
+        // 验证码位数
+        'length' => 4,
+        // 验证成功后是否重置
+        'reset' => true
+    ],
+
+
 ];
