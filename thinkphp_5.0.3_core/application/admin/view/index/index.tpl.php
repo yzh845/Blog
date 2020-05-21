@@ -28,7 +28,7 @@
         <div class="layui-side-scroll">
             <ul class="layui-nav layui-nav-tree left_menu_ul">
                 <li class="layui-nav-item layui-nav-title">
-                    <a>个人信息</a>
+                    <a href="{:url('index/index')}">个人信息</a>
                 </li>
                 <li class="layui-nav-item first-item layui-this">
                     <a href="{:url('index/home')}" target="main">
@@ -48,7 +48,7 @@
                     <a>内容发布管理</a>
                 </li>
                 <li class="layui-nav-item first-item">
-                    <a href="category_list.html" target="main">
+                    <a href="<?php echo url('category/index') ?>" target="main">
                         <i class="layui-icon">&#xe609;</i>
                         <cite>栏目管理</cite>
                     </a>

@@ -5,17 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b3b83fe-e9de-4b7a-8065-62c9705ad1a5" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Admin.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Upload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/admin/edit.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/index/home.tpl.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/common/model/Upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Category.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/category/add.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/category/add_link.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/category/content_manage_search.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/category/edit.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/category/edit_link.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/category/list.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/common/model/Category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/model/Admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/model/Admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/index/index.tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/index/index.tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/database.php" beforeDir="false" afterPath="$PROJECT_DIR$/thinkphp_5.0.3_core/application/database.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,12 +27,48 @@
     <pharConfigPath>$PROJECT_DIR$/thinkphp_5.0.3_core/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Admin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="422">
-              <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+            <state relative-caret-position="225">
+              <caret line="14" column="24" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="602">
+              <caret line="195" column="1" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Category.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/common/model/Category.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/category/add.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="593">
+              <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.tpl.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/index/index.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="205">
+              <caret line="50" column="65" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -43,6 +78,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>//登陆</find>
+      <find>category_list</find>
+      <find>void(0)</find>
+      <find>get_category_list</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -59,10 +97,14 @@
         <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/model/Admin.php" />
         <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Index.php" />
         <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/index/home.tpl.php" />
-        <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/index/index.tpl.php" />
         <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/common/model/Upload.php" />
         <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Upload.php" />
         <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Admin.php" />
+        <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/index/index.tpl.php" />
+        <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/category/add.tpl.php" />
+        <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/category/list.tpl.php" />
+        <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/common/model/Category.php" />
+        <option value="$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Category.php" />
       </list>
     </option>
   </component>
@@ -84,10 +126,10 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="832" />
-    <option name="y" value="54" />
-    <option name="width" value="1096" />
-    <option name="height" value="810" />
+    <option name="x" value="474" />
+    <option name="y" value="150" />
+    <option name="width" value="1085" />
+    <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -135,6 +177,55 @@
               <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="Blog" type="462c0819:PsiDirectoryNode" />
               <item name="thinkphp_5.0.3_core" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkphp_5.0.3_core" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkphp_5.0.3_core" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="category" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkphp_5.0.3_core" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+              <item name="index" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkphp_5.0.3_core" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkphp_5.0.3_core" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Blog" type="462c0819:PsiDirectoryNode" />
+              <item name="thinkphp_5.0.3_core" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -156,16 +247,17 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core\application\admin\common\model" />
-      <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core" />
-      <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core\application\admin\view\admin" />
-      <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core\public\static" />
-      <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core\vendor" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core\application\common\model" />
       <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core\application" />
       <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core\public\static" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core\application\common\model" />
+      <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core\application\admin\controller" />
+      <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core\application\admin\view" />
+      <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core\application\admin\common\model" />
+      <recent name="C:\Users\22258\Desktop\Blog\thinkphp_5.0.3_core" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -193,54 +285,55 @@
       <workItem from="1589857289393" duration="885000" />
       <workItem from="1589879761999" duration="3087000" />
       <workItem from="1589897311421" duration="438000" />
-      <workItem from="1589897951435" duration="2801000" />
+      <workItem from="1589897951435" duration="3400000" />
+      <workItem from="1590032448219" duration="13719000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7211000" />
+    <option name="totallyTimeSpent" value="21529000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="832" y="54" width="1096" height="810" extended-state="0" />
+    <frame x="474" y="150" width="1085" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26296297" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26566884" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26296297" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -253,6 +346,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/public/login.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="775">
@@ -291,9 +391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/public/static/Admin.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -307,9 +404,6 @@
           <caret line="43" column="31" lean-forward="true" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/public/toper.tpl.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Login.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -342,13 +436,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/index/index.tpl.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/extend/Form.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -372,15 +459,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/common/model/Upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
+        <state relative-caret-position="1800">
           <caret line="72" column="1" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/index/index.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="50" column="65" selection-start-line="50" selection-start-column="65" selection-end-line="50" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/category/list.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3446">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/view/category/add.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="422">
-          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+        <state relative-caret-position="225">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/admin/controller/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="602">
+          <caret line="195" column="1" selection-start-line="195" selection-start-column="1" selection-end-line="195" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thinkphp_5.0.3_core/application/common/model/Category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="28" />
         </state>
       </provider>
     </entry>
