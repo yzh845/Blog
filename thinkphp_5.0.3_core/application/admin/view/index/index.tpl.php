@@ -54,7 +54,7 @@
                     </a>
                 </li>
                 <li class="layui-nav-item content_manage">
-                    <a href="./content_manage_search.html" target="main">
+                    <a href="{:url('category/content_manage_search')}" target="main">
                         <i class="layui-icon">&#xe60a;</i>
                         <cite>内容管理</cite>
                     </a>
@@ -205,16 +205,18 @@
             loading = layer.load(2, {
                 shade: [0.2,'#000'] //0.2透明度的白色背景
             });
-            jq('#content_manage_tree').empty();
-            layui.tree({
-                elem: '#content_manage_tree' //传入元素选择器
-                ,skin: 'white'
-                ,target: 'main'
-                ,nodes: [{"id":1,"name":"学无止境","children":[{"id":8,"name":"杂谈","children":[],"href":"\/admin\/article\/index\/category_id\/8.html"},{"id":9,"name":"PHP","children":[],"href":"\/admin\/article\/index\/category_id\/9.html"},{"id":10,"name":"建站","children":[],"href":"\/admin\/article\/index\/category_id\/10.html"},{"id":11,"name":"WEB前端","children":[],"href":"\/admin\/article\/index\/category_id\/11.html"}],"spread":true},{"id":2,"name":"分享无价","children":[{"id":13,"name":"源码分享","children":[],"href":"\/admin\/download\/index\/category_id\/13.html"},{"id":14,"name":"jQuery特效","children":[],"href":"\/admin\/download\/index\/category_id\/14.html"}],"spread":true},{"id":3,"name":"日记","children":[],"spread":true,"href":"\/admin\/link\/index\/category_id\/3.html"},{"id":4,"name":"关于","children":[{"id":5,"name":"关于老张","children":[],"href":"\/admin\/page\/edit\/category_id\/5.html"},{"id":6,"name":"关于LzCMS","children":[],"href":"\/admin\/page\/edit\/category_id\/6.html"}],"spread":true,"href":"\/admin\/link\/index\/category_id\/3.html"}]
+            jq.getJSON('{:url("category/manage_tree")}',function(data){
+                jq('#content_manage_tree').empty();
+                layui.tree({
+                    elem: '#content_manage_tree' //传入元素选择器
+                    ,skin: 'white'
+                    ,target: 'main'
+                    ,nodes: data
+                });
+                jq('.left_menu_ul').addClass('hide');
+                jq('.content_manage_container').removeClass('hide');
+                layer.close(loading);
             });
-            jq('.left_menu_ul').addClass('hide');
-            jq('.content_manage_container').removeClass('hide');
-            layer.close(loading);
         });
 
         //更新缓存

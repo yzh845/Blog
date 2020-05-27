@@ -121,6 +121,8 @@ class Category extends Init
     //内容管理搜索
     function content_manage_search(){
         $category_list = $this->model->get_last_category_list(0,true);
+//        dump($category_list);
+//        die();
         return view('content_manage_search',['category_list'=>json_encode($category_list)]);
     }
     //分类排序
