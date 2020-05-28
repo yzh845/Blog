@@ -13,7 +13,7 @@ class Article extends Init
 		$this->model = model('common/article');
 		$this->category_model = model('common/category');
 	}
-
+//    显示文章内容
 	function index(){
 		$params = input('param.');
 		$category_id = $params['category_id'];
