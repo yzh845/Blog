@@ -1,11 +1,23 @@
 <?php
 namespace app\index\controller;
 
-class Index
+/**
+* 首页类
+*/
+class Index extends Init
 {
-    public function index()
-    {
-        return '1231123';
-        return '<style type="text/css">*{ padding: 0; margin: 0; } .think_default_text{ padding: 4px 48px;} a{color:#2E5CD5;cursor: pointer;text-decoration: none} a:hover{text-decoration:underline; } body{ background: #fff; font-family: "Century Gothic","Microsoft yahei"; color: #333;font-size:18px} h1{ font-size: 100px; font-weight: normal; margin-bottom: 12px; } p{ line-height: 1.6em; font-size: 42px }</style><div style="padding: 24px 48px;"> <h1>:)</h1><p> ThinkPHP V5<br/><span style="font-size:30px">十年磨一剑 - 为API开发设计的高性能框架</span></p><span style="font-size:22px;">[ V5.0 版本由 <a href="http://www.qiniu.com" target="qiniu">七牛云</a> 独家赞助发布 ]</span></div><script type="text/javascript" src="http://tajs.qq.com/stats?sId=9347272" charset="UTF-8"></script><script type="text/javascript" src="http://ad.topthink.com/Public/static/client.js"></script><thinkad id="ad_bd568ce7058a1091"></thinkad>';
-    }
+	
+	function _initialize()
+	{
+		parent::_initialize();
+		$this->article_model = model('common/article');
+	}
+
+	function index(){
+		$recommend_list = $this->article_model->get_list(['is_recommend'=>'1'],'is_top desc,id desc',10); //推荐文章
+		$new_list = $this->article_model->get_list([],['id desc'],10); //最新文章
+		$hot_list = $this->article_model->get_list([],['hits desc'],10); //热门文章
+		$links = json_decode($this->settings['links'],true); //友情链接
+		return view('index',['links'=>$links,'recommend_list'=>$recommend_list,'new_list'=>$new_list,'hot_list'=>$hot_list]);
+	}
 }
